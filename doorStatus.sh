@@ -17,3 +17,6 @@ while true; do
         echo "Door opened at $time on $date"
         # send an email notification
         echo "Hi, Door opened at $time on $date" | mail -s "Door Open" example@gmail.com
+
+        # save notificationn in a daily log file 
+        echo "Door was opened at $time on $date" >> log$date.txt
