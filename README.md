@@ -18,7 +18,7 @@ and
 sudo apt-get upgrade
 ```
 
-## Authors
+## Author
 
 * **Yann Mulonda** - *Initial work* - [Tim Rustige]
 
