@@ -59,7 +59,7 @@ on Raspberry.
 
 ## Author
 
-* **Yann Mulonda** (https://github.com/YannMjl) - *Initial work* - [Tim Rustige]
+* **[Yann Mulonda](https://github.com/YannMjl)** - *Initial work* - [Tim Rustige]
 
 ## License
 
