@@ -13,9 +13,9 @@ do
     # all this is in an infinite loop
     wait $!
 
-    # wait for some period after the command terminated before it is restarted
-    # this prevents rapid restarting that may draw lots of cpu time in case something is 
-    # badly wrong and the start script command quickly terminates after start.
+    # wait for some period after the command terminated before it's estarted
+    # this prevents rapid restarting that may draw lots of cpu time in case something 
+    # is badly wrong and the start script command quickly terminates after start.
     sleep 10
 done
 
