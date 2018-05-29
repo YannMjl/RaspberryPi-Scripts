@@ -1,3 +1,8 @@
+# --------------------------------------------------------------------------------------- #
+# This script is used to monitor the status of a door with a Raspberry Pi 3 Mobel B       #
+# and send an email when the door is opened or closed                                     #
+# --------------------------------------------------------------------------------------- #
+
 echo "4" > /sys/class/gpio/export
 echo "in" > /sys/class/gpio/gpio4/direction
 
@@ -48,3 +53,4 @@ do
 done
 
 exit 0
+# --------------------------------------------------------------------------------------- #
