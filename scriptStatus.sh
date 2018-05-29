@@ -7,7 +7,7 @@ while true;
 do
     # start doorStatus script and output error to a text file
     # the '&'' puts the process into the background, so the script goes to the next line
-    sudo ./home/pi/Desktop/MyScripts/doorStatus.sh &
+    bash /home/pi/Desktop/MyScripts/doorStatus.sh &
 
     # wait $! is a command that waits for the last command started to terminate
     # all this is in an infinite loop
