@@ -54,12 +54,12 @@ These Script are made to run on Raspberry Pi.
 
 These scripts serve as model or bleuprint to create your own scripts depending on the project
 you built.
-It's demostrate the some of the most common and most used tasks used while building projects 
+They also demostrate some of the most common tasks used while building projects 
 on Raspberry.
 
 ## Author
 
-* **Yann Mulonda** - *Initial work* - [Tim Rustige]
+* **Yann Mulonda** (https://github.com/YannMjl) - *Initial work* - [Tim Rustige]
 
 ## License
 
