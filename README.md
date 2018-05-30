@@ -37,8 +37,8 @@ executable with chmod, or need to put a sudo in front of it.
 
 ### Prerequisites
 
-We've assumed you're running the latest version of the Raspbian OS for the Raspberry Pi. 
-To begin run the following comming to update your system to the latest packages
+These Script are made to run on Raspberry Pi 3.We've assumed you're running the latest version
+of the Raspbian OS for the Raspberry Pi. To begin run the following comming to update your system to the latest packages.
 
 ```
 sudo apt-get update
@@ -48,7 +48,6 @@ and
 ```
 sudo apt-get upgrade
 ```
-These Script are made to run on Raspberry Pi.
 
 ## Usage
 
@@ -63,4 +62,4 @@ on Raspberry.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE)© [Yann Mulonda](https://github.com/YannMjl) file for details
