@@ -7,7 +7,7 @@ These instructions will introduce to making an executable script.
 Open terminal on your Raspberry pi and create a test script:
 
 ```
-nano test2.sh
+nano test.sh
 ```
 
 This Will open a basic text editor & allow you to enter a series of commands, that form the basis of all
@@ -20,18 +20,18 @@ echo “hello world”
 Then save the file & exit. To make the command executable type:
 
 ```
-chmod u+x test2.sh
+chmod u+x test.sh
 ```
 
 and then to run the script:
 
 ```
-./test2.sh
+./test.sh
 ```
 Some scripts will need to be run as root (the highest security level). To do that type:
 
 ```
-sudo ./test2.sh
+sudo ./test.sh
 ```
 If you have any problem running a script, then you've either made a typo, forgotten to make it
 executable with chmod, or need to put a sudo in front of it.
