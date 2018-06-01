@@ -34,6 +34,9 @@ do
             while [$stat = "1"]
             do
                 stat=`cat /sys/class/gpio/gpio4/value`
+                
+                # add a waiting time
+                sleep 0.09
             done 
         
         # for when the door is closed 
@@ -49,6 +52,9 @@ do
         # save notificationn in a daily log file 
         echo "Door was closed at $time on $date" >> log$date.txt
     done
+    
+    # add a waiting time reduce the the processor use by over 90%
+    sleep 0.09
 
 done
 
