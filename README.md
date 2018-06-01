@@ -1,5 +1,6 @@
 # RaspberryPi-Scripts
-This is an example of a script i used to monitor my office door at work with a Raspberry Pi 3 Model B
+This project contains Checking script status / detecting script crash used to monitor my office door at work with a Raspberry Pi 3 Model B.
+
 ## Getting Started
 
 These instructions will introduce to making an executable script.
