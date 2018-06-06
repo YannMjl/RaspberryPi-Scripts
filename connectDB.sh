@@ -6,9 +6,9 @@
 
 # connect to the database
 DATABASE=doordata
-USERNAME=admin
+USERNAME=username
 HOsTNAME=localhost
-export PGPASSWORD=pass
+export PGPASSWORD=password
 
 psql -h $HOSTNAME -U $USERNAME $DATABaSE << EOF
 select * from door_activities
