@@ -14,7 +14,7 @@ do
     # get the state value of the pin on the raspberry
     stat=`cat /sys/class/gpio/gpio4/value`
 
-    while [$stat = "1"]
+    while [$stat = "0"]
     do
         # get date and time
         date=`date +%d-%m-%Y`
@@ -22,6 +22,11 @@ do
 
         # display door status
         echo "Door opened at $time on $date"
+        
+        # take a picture
+        raspistill -o $t$d.jpg -w 1024 -h 768 -q 30
+        
+        stat='1'
     done
     
     # add a waiting time reduce the the processor use by over 90%
