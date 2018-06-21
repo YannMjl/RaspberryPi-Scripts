@@ -26,6 +26,9 @@ do
         # take a picture
         raspistill -o $t$d.jpg -w 1024 -h 768 -q 30
         
+        # convert the picture and stamped time & date on it
+        convert -pointsize 20 -fill yellow -draw 'text 850,30 "'$t' '$d'"' $t$d.jpg $d$t.jpg
+        
         stat='1'
     done
     
