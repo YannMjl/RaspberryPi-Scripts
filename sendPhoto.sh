@@ -32,6 +32,7 @@ do
         # send email with attached photo
         mpack -s "door opned" /home/pi/$d$t.jpg example@gmail.com
         
+        # set stat to 1
         stat='1'
     done
     
