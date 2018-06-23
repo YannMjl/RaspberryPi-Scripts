@@ -36,7 +36,7 @@ sudo ./test.sh
 If you have any problem running a script, then you've either made a typo, forgotten to make it
 executable with chmod, or need to put a sudo in front of it.
 
-### Prerequisites
+## Prerequisites
 
 These Script are made to run on Raspberry Pi 3.We've assumed you're running the latest version
 of the Raspbian OS for the Raspberry Pi. To begin run the following comming to update your system to the latest packages.
