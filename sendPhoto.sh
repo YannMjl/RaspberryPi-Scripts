@@ -14,7 +14,7 @@ do
     # get the state value of the pin on the raspberry
     stat=`cat /sys/class/gpio/gpio4/value`
 
-    while [$stat = "0"]
+    while [ $stat = "1" ]
     do
         # get date and time
         date=`date +%d-%m-%Y`
@@ -32,8 +32,15 @@ do
         # send email with attached photo
         mpack -s "door opned" /home/pi/$d$t.jpg example@gmail.com
         
-        # set stat to 1
-        stat='1'
+            while [ $stat = "1" ]
+            do
+                # get the state value of the pin on the raspberry
+                stat=`cat /sys/class/gpio/gpio4/value` 
+                sleep 0.09
+            done
+            
+        echo "door closed"
+        
     done
     
     # add a waiting time reduce the the processor use by over 90%
