@@ -23,8 +23,9 @@ do
         # display door status
         echo "Door opened at $time on $date"
         
-        # take a picture
-        raspistill -o $t$d.jpg -w 1024 -h 768 -q 30
+        # Runs camera for specific time, and take JPG capture at end if requested
+        # -t, --timeout	: Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
+        raspistill -t 100 -o $t$d.jpg -w 1024 -h 768 -q 30
         
         # convert the picture and stamped time & date on it
         convert -pointsize 20 -fill yellow -draw 'text 850,30 "'$t' '$d'"' $t$d.jpg $d$t.jpg
