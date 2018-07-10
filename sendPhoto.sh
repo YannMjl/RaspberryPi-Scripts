@@ -20,7 +20,7 @@ do
         date=`date +%d-%m-%Y`
         time=`date '+%H:%M'`
 
-        # display door status
+        # display door status on terminal
         echo "Door opened at $time on $date"
         
         # Runs camera for specific time, and take JPG capture at end if requested
