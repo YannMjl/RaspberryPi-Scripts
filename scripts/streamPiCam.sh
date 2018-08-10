@@ -8,7 +8,7 @@
 # "-o -" causes the output to be written to stdout
 # "-t 0" sets the timeout to disabled (capture indefinitely)
 
-# "-w" width, available range: 64 to 1920 
+# "-w" width, available range: 64 to 1920
 # "-h" Height, available range: 64 to 1080
 
 # "-fps" Frames per second, 2 to 30 (may change in the future)
@@ -16,7 +16,7 @@
 
 # "cvlc" is the console vlc player
 # "-vvv" specifies where to get the stream from
-# "-sout" specifies where to output it to 
+# "-sout" specifies where to output it to
 
 # -------------------------------------------------------------------------------------------------------------------------- #
 

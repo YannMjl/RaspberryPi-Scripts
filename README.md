@@ -44,7 +44,7 @@ of the Raspbian OS for the Raspberry Pi. To begin run the following comming to u
 ```
 sudo apt-get update
 ```
-and 
+and
 
 ```
 sudo apt-get upgrade
@@ -52,9 +52,9 @@ sudo apt-get upgrade
 
 ## Usage
 
-These scripts serve as model or bleuprint to create your own scripts depending on the project
+These scripts serve as model or blueprint to create your own scripts depending on the project
 you built.
-They also demostrate some of the most common tasks used while building projects 
+They also demonstrate some of the most common tasks used while building projects
 on Raspberry.
 
 ## Author
