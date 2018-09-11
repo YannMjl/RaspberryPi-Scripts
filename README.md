@@ -1,4 +1,4 @@
-# RaspberryPi-Scripts
+# Raspberry Pi 3-Scripts
 This project contains Checking script status / detecting script crash used to monitor my office door at work with a Raspberry Pi 3 Model B.
 
 ## Getting Started
