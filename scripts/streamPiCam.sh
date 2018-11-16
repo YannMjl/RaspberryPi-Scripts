@@ -4,7 +4,6 @@
 
 # notes:
 # "raspivid" the command line used to capture the video with the Pi camera
-
 # "-o -" causes the output to be written to stdout
 # "-t 0" sets the timeout to disabled (capture indefinitely)
 
