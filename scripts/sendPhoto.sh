@@ -30,7 +30,7 @@ do
     # convert the picture and stamped time & date on it
     convert -pointsize 20 -fill yellow -draw 'text 850,30 "'$t' '$d'"' $t$d.jpg $d$t.jpg
 
-    # send email with attached photo
+    # send email with the attached photo
     mpack -s "door opned" /home/pi/$d$t.jpg example@gmail.com
 
     while [ $stat = "1" ]
