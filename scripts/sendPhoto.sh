@@ -4,7 +4,7 @@
 
 #!/bin/bash
 
-# create an infinite loop inside wwhich operations will be done
+# create an infinite loop inside which, the operations will be done
 # to continuously check for door status and send notifications
 while true;
 do
@@ -23,7 +23,7 @@ do
     # display door status on terminal
     echo "Door opened at $time on $date"
 
-    # Runs camera for specific time, and take JPG capture at end if requested
+    # runs camera for specific time, and take JPG capture at end if requested
     # -t, --timeout:Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
     raspistill -t 100 -o $t$d.jpg -w 1024 -h 768 -q 30
 
