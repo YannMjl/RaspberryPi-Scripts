@@ -24,7 +24,7 @@ do
     echo "Door opened at $time on $date"
 
     # Runs camera for specific time, and take JPG capture at end if requested
-    # -t, --timeout	: Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
+    # -t, --timeout:Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
     raspistill -t 100 -o $t$d.jpg -w 1024 -h 768 -q 30
 
     # convert the picture and stamped time & date on it
