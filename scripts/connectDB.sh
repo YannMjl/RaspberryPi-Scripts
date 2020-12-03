@@ -2,7 +2,6 @@
 # This shell script connects to the postgres database, runs the select query and          #
 # insert data into the database                                                           #
 # --------------------------------------------------------------------------------------- #
-
 #!/bin/sh
 
 # connect to the database
