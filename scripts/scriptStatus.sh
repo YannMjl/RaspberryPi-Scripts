@@ -18,6 +18,4 @@ do
   # is badly wrong and the start script command quickly terminates after start.
   sleep 10
 done
-
 exit 0
-# ------------------------------------------------------------------------------------- #
