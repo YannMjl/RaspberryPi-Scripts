@@ -57,7 +57,9 @@ sudo apt-get upgrade
 ## Usage
 
 These scripts serve as model or blueprint to create your own scripts depending on the project
-you built. They also demonstrate some of the most common tasks used while building projects
+you built. 
+
+They also demonstrate some of the most common tasks used while building projects
 on Raspberry.
 
 ## Author
