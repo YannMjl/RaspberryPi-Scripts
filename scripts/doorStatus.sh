@@ -3,6 +3,7 @@
 # and send an email when the door is opened or closed                                     #
 # --------------------------------------------------------------------------------------- #
 #!/bin/bash
+
 echo "4" > /sys/class/gpio/export
 echo "in" > /sys/class/gpio/gpio4/direction
 
