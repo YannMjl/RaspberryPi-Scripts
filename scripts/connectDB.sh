@@ -10,6 +10,7 @@ USERNAME=username
 HOsTNAME=localhost
 export PGPASSWORD=password
 
+# SQL query to test DB connection
 psql -h $HOSTNAME -U $USERNAME $DATABaSE << EOF
 select * from door_activities
 EOF
